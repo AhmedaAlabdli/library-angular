@@ -1,0 +1,133 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "Libraty1": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "standalone": false
+        },
+        "@schematics/angular:directive": {
+          "standalone": false
+        },
+        "@schematics/angular:pipe": {
+          "standalone": false
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:application",
+          "options": {
+            "outputPath": "dist/libraty1",
+            "index": "src/index.html",
+            "browser": "src/main.ts",
+            "polyfills": [
+              "zone.js"
+            ],
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "buildTarget": "Libraty1:build:production"
+            },
+            "development": {
+              "buildTarget": "Libraty1:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "buildTarget": "Libraty1:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ],
+            "tsConfig": "tsconfig.spec.json",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets",
+              "src/app/home/assets"
+            ],
+            "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "./src/app/home/assets/vendor/bootstrap/css/bootstrap.min.css",
+              "styles.scss",
+             "node_modules/ngx-toastr/toastr.css",
+             "assets/vendor/animate.css/animate.min.css",
+             "assets/vendor/aos/aos.css",
+             "assets/vendor/bootstrap/css/bootstrap.min.css",
+             "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+             "assets/vendor/boxicons/css/boxicons.min.css",
+             "assets/vendor/glightbox/css/glightbox.min.css",
+             "assets/vendor/swiper/swiper-bundle.min.css",
+             "assets/css/style.css"
+            ],
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/jquery/dist/jquery.min.js",
+              "assets/vendor/purecounter/purecounter_vanilla.js",
+              "assets/vendor/aos/aos.js",
+              "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "assets/vendor/glightbox/js/glightbox.min.js",
+              "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+              "assets/vendor/swiper/swiper-bundle.min.js",
+              "assets/vendor/waypoints/noframework.waypoints.js",
+              "assets/vendor/php-email-form/validate.js",
+              "assets/js/main.js"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": "782501fe-dca6-4a71-88d9-1aea64d688a0"
+  }
+}

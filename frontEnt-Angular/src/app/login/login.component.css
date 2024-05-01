@@ -1,0 +1,169 @@
+/* body{
+	background-image: url(./img/lib.jpg);
+	background-repeat: no-repeat;
+	background-size:100% auto;
+}
+
+.content{
+	width:30%;
+	height:auto;
+	border:1px solid #ffffff00;
+	margin:20% auto;
+	text-align:center;
+	background:rgba(0,0,0,0.4);
+}
+.content .logo h1{
+	color:#fff;
+}
+.content .form{
+	margin-top:25px;
+}
+.content .form .input_outer input{
+	width:250px;
+	font-size:18px;
+	color:#fff;
+	border:0;
+	border-bottom:2px solid #fff;
+	padding:8px 10px;
+	background:#ffffff00;
+}
+.content .form .input_outer{
+	margin-top:15px;
+}
+.content .form .input_outer i{
+	font-size:18px;
+	color:#fff;
+}
+.content button{
+	width:200px;
+	height:40px;
+	margin-top:20px;
+	font-size:20px;
+	font-weight:700;
+	color:#fff;
+	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+	border:0;
+	border-radius:15px;
+} */
+
+/* body {
+	background-repeat: no-repeat;
+	background-size:100% auto;
+    background-image: url(./img/lib.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    align-content: center;
+}
+
+.login-container {
+	height: 200 px;
+    width: 200 px;
+border-radius: 15px;
+box-shadow: paleturquoise;
+align-content: center;
+align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(0.1 px);
+}
+
+form {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+} */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-image: url(../img/lib.jpg); /* اسم الصورة الخلفية */
+	background-size: cover;
+	background-blur: 10 px; /* تعديل البلورة */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.login-container {
+	background-color: rgba(255, 255, 255, 0.7); /* لون خلفية نافذة تسجيل الدخول */
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(7, 7, 200,1 );
+	text-align: center;
+}
+.login-container input{
+	direction: rtl;
+	border-radius: 5px;
+}
+.login-container small{
+	text-align: left;
+	color: red;
+	margin-bottom: 5px;
+	/* margin-bottom: 5px; */
+}
+.login-container button{
+    border-radius: 5px;
+	margin: 10px;
+	background-color: #76b2f1;
+}
+.login-container button:hover{
+	background-color: #2071c7;
+}
+.login-container h2 {
+	margin-bottom: 20px;
+}
+.login-container a {
+	text-decoration: none;
+	color: #4507d5;
+}
+.login-container a:hover {
+	color: #007bff;
+}
+.social-icons {
+	margin-top: 20px;
+	border-top: 1px solid;
+	position: relative;
+	padding-top: 20px;
+}
+.social-icons:after{
+content: "يمكنك الاتصال عبر ";
+position: absolute;
+top: -13px;
+left: 23%;
+background-color: rgba(255, 255, 255, 0.7);;
+padding: 0 8px;
+}
+.social-icons img {
+	width: 35px;
+	height: 35px;
+	margin: 0 20px;
+	border-radius: 50%;
+}
+.login-container form img{
+	margin-left: 5px;
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	
+}

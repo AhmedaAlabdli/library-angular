@@ -1,0 +1,89 @@
+<!-- <form ngForm="form" (submit)= "submit()">
+    <div class="form-group">
+        <label for="title">Title:</label>
+        <input type="text" [(ngModel)]= "service.book!.title" name="title" class="form-control">
+    </div>
+    
+    <div class="form-group"> 
+        <label for="author">Author:</label>
+        <input type="text" [(ngModel)]= "service.book!.author" name="author" class="form-control">
+    </div>
+    
+    <div class="form-group">
+        <label for="numberOfPages">Number of Pages:</label>
+        <input type="text" [(ngModel)]= "service.book!.numberOfPages" name="numberOfPages" class="form-control">
+    </div>
+    
+    
+    <div class="form-group">
+        <label for="publishedAt">Published Date:</label>
+        <input type="text" [(ngModel)]= "service.book!.publishedAt" name="publishedAt" class="form-control">
+    </div>
+
+    <input type="submit" class="btn btn-dark btn-lg" value="Save Book">
+</form>
+ -->
+
+ <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            
+            <div class="container">
+                <h2>بيانات الكتاب</h2>
+                <form ngForm="form" (submit)= "submit()">
+                    <div class="form-group">
+                        <label for="title">اسم الكتاب:</label>
+                        <input type="text" [(ngModel)]= "service.book!.title" id="bookName" name="title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="author">المؤلف:</label>
+                        <input type="text" [(ngModel)]= "service.book!.author" id="author" name="author" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="numberOfPages">عدد الصفحات:</label>
+                        <input type="text" [(ngModel)]= "service.book!.numberOfPages" id="pages" name="numberOfPages" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="publishedAt">تاريخ النشر:</label>
+                        <input type="text" [(ngModel)]= "service.book!.publishedAt" id="publishDate" name="publishedAt" required>
+                    </div>
+                    <button type="submit">حفظ الكتاب</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <!-- <app-books-list></app-books-list> -->
+
+            
+
+        </div>
+
+    </div>
+
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>اسم الكتاب</th>
+            <th>المؤلف</th>
+            <th>عدد الصفحات</th>
+            <th>تاريخ النشر</th>
+            <th>تعديل</th>
+            <th>حذف</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let item of service.books">
+            <td>{{item.title}}</td>
+            <td>{{item.author}}</td>
+            <td>{{item.numberOfPages}}</td>
+            <td>{{item.publishedAt}}</td>
+            <td (click)= "fillData(item)"><button class="btn_UpDate">تعديل</button></td>
+            <td (click)= "delete(item.id)"><button class="btn_Delete">حذف</button></td>
+        </tr>
+    </tbody>
+</table>
+
+ 

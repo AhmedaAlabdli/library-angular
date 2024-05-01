@@ -1,0 +1,32 @@
+<body>
+    <div class="login-container">
+        <h2>إنشاء حساب</h2>
+        <form [formGroup]= "signUpForm" >
+            <!-- حقول تسجيل الدخول هنا -->
+            <input formControlName="fullName" type="text" name="FullName" placeholder="الاسم الرباعي" required>
+            <br>
+            <small *ngIf= "signUpForm.controls['fullName'].dirty && signUpForm.hasError('required','fullName')" >الاسم الرباعي مطلوب *</small>
+            <br>
+            <input formControlName="phoneNumber" type="text" name="PhoneNumber" placeholder="رقم الجوال " required>
+            <br>
+            <small *ngIf= "signUpForm.controls['phoneNumber'].dirty && signUpForm.hasError('required','phoneNumber')" >رقم الجوال مطلوب *</small>
+            <br>
+            <input formControlName="email" type="text" name="Email" placeholder="البريد الالكتروني " required>
+            <br>
+            <small *ngIf= "signUpForm.controls['email'].dirty && signUpForm.hasError('required','email')">البريد الالكتروني مطلوب *</small>
+            <br>
+            <input formControlName="userName" type="text" name="UserName" placeholder="اسم المستخدم" required>
+            <br>
+            <small *ngIf= "signUpForm.controls['userName'].dirty && signUpForm.hasError('required','userName')">اسم المستخدم مطلوب *</small>
+            <br>
+            <input formControlName="password" type="text" name="Password" placeholder="كلمة المرور" required>
+            <br>
+            <small *ngIf= "signUpForm.controls['password'].dirty && signUpForm.hasError('required','password')">كلمة المرور مطلوب *</small>
+            <br>
+            <button (click)= "onSignup()" type="submit" >إنشاء حساب</button>
+        </form>
+        <a href="#">هل نسيت كلمة السر؟</a>
+        <p>لديك حساب بالفعل ؟ <a href="#" routerLink="/login"> تسجيل الدخول</a></p>
+        
+    </div>
+</body>

@@ -1,0 +1,44 @@
+<!-- <body>
+    <div class="login-container">
+        <form>
+            <h1>تسجيل الدخول</h1>
+            <input type="text" placeholder="اسم المستخدم">
+            <input type="password" placeholder="كلمة المرور">
+            <button type="submit">تسجيل الدخول</button>
+        </form>
+    </div>
+</body> -->
+
+
+<body>
+    <div class="login-container">
+        <h2>تسجيل الدخول</h2>
+        <form [formGroup]= "loginForm" action="login.php" method="post" class="FormGroup">
+            <!-- حقول تسجيل الدخول هنا -->
+
+
+            
+            <input [class.error]= "loginForm.controls['UserName'].dirty&&loginForm.hasError('required','UserName')" formControlName="UserName" type="text" class="username" name="UserName" placeholder="اسم المستخدم" required>
+            <img src="assets/img/username.png" >
+            <br>
+            <small *ngIf= "loginForm.controls['UserName'].dirty&&loginForm.hasError('required','UserName')" >هذا الحقل مطلوب * </small>
+            <br>
+            
+            <input formControlName="Password" type="password" name="password" placeholder="كلمة المرور" required>
+            <img src="assets/img/password.jpg" >
+            <br>
+            <small *ngIf= "loginForm.controls['Password'].dirty&&loginForm.hasError('required','Password')" >هذا الحقل مطلوب * </small>
+            <br>
+            <button (click)= "onLogin()"  type="submit" >تسجيل الدخول</button>
+        </form>
+        <a href="#">هل نسيت كلمة السر؟</a>
+        <p>اذا لم يكن لديك حساب، <a href="#" routerLink="/signup">أنشئ حساب</a></p>
+        <div class="social-icons">
+            <img src="assets/img/google-logo.jpg" alt="">
+            <img src="assets/img/facebook-logo.png" alt="">
+            <img src="assets/img/github-logo.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+<!-- [disabled]= "loginForm.invalid" -->
