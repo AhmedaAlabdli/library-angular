@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|c:\\users\\ahmed a. alabdli\\source\\repos\\library1\\library1\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|solutionrelative:library1\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|c:\\users\\ahmed a. alabdli\\source\\repos\\library1\\library1\\models\\booksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|solutionrelative:library1\\models\\booksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|c:\\users\\ahmed a. alabdli\\source\\repos\\library1\\library1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|solutionrelative:library1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|c:\\users\\ahmed a. alabdli\\source\\repos\\library1\\library1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|solutionrelative:library1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|c:\\users\\ahmed a. alabdli\\source\\repos\\library1\\library1\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|solutionrelative:library1\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|c:\\users\\ahmed a. alabdli\\source\\repos\\library1\\library1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|solutionrelative:library1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|c:\\users\\ahmed a. alabdli\\source\\repos\\library1\\library1\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|solutionrelative:library1\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|c:\\users\\ahmed a. alabdli\\source\\repos\\library1\\library1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|solutionrelative:library1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|c:\\users\\ahmed a. alabdli\\source\\repos\\library1\\library1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|solutionrelative:library1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|c:\\users\\ahmed a. alabdli\\source\\repos\\library1\\library1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B6A45BA-8509-4FAF-83BB-2FF0FCA79EF4}|Library1\\Library1.csproj|solutionrelative:library1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Helpers\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Library1\\Helpers\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Helpers\\PasswordHasher.cs",
+              "RelativeToolTip": "Library1\\Helpers\\PasswordHasher.cs",
+              "ViewState": "AQIAABAAAACAZmZmZmYswCsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:48:52.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Program.cs",
+              "RelativeDocumentMoniker": "Library1\\Program.cs",
+              "ToolTip": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Program.cs",
+              "RelativeToolTip": "Library1\\Program.cs",
+              "ViewState": "AQIAAAQAAACANDMzMzMLwCQAAACFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T14:12:39.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Library1\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Library1\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T07:38:17.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Library1\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Models\\User.cs",
+              "RelativeToolTip": "Library1\\Models\\User.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T05:51:59.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Library1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Library1\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-15T07:31:45.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\appsettings.json",
+              "RelativeDocumentMoniker": "Library1\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\appsettings.json",
+              "RelativeToolTip": "Library1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-06T14:10:52.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Models\\BooksDBContext.cs",
+              "RelativeDocumentMoniker": "Library1\\Models\\BooksDBContext.cs",
+              "ToolTip": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Models\\BooksDBContext.cs",
+              "RelativeToolTip": "Library1\\Models\\BooksDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T13:53:11.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Library1\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Library1\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T01:07:27.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Library1\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Models\\Book.cs",
+              "RelativeToolTip": "Library1\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:27:36.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Library1\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\WeatherForecast.cs",
+              "RelativeToolTip": "Library1\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T14:12:33.799Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
