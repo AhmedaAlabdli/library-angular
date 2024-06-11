@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "bootstrap": "^5.3.3",
-    "jquery": "^3.7.1",
-    "ng-angular-popup": "^0.5.2"
-  }
-}
