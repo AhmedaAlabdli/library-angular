@@ -41,11 +41,12 @@ import { AuthService } from '../auth.service'; // افترض أن لديك خد�
 })
 
 export class AuthGuard implements CanActivate {
-  constructor(private authService: AuthService, private router: Router) {}
+  constructor(private auth: AuthService, private router: Router) {}
 
   canActivate(): boolean {
-    if (this.authService.isLoggedIn()) {
+    if (this.auth.isLoggedIn()) {
       // المستخدم مسجل دخولًا، يمكنه الوصول إلى لوحة التحكم
+      // alert(' المستخدم مسجل دخولًا، يمكنه الوصول إلى لوحة التحكم')
       return true;
     } else {
       // المستخدم غير مسجل دخولًا، قم بتوجيهه إلى صفحة تسجيل الدخول

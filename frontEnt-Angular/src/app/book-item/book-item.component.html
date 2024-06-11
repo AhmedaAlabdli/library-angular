@@ -24,7 +24,7 @@
 </form>
  -->
 
- <div class="container">
+ <!-- <div class="container">
     <div class="row">
         <div class="col-md-6">
             
@@ -52,8 +52,6 @@
             </div>
 
         </div>
-        <div class="col-md-6">
-            <!-- <app-books-list></app-books-list> -->
 
             
 
@@ -61,7 +59,6 @@
 
     </div>
 
-</div>
 
 <table>
     <thead>
@@ -84,6 +81,109 @@
             <td (click)= "delete(item.id)"><button class="btn_Delete">حذف</button></td>
         </tr>
     </tbody>
-</table>
+</table> -->
 
- 
+<!-- NAV BAR -->
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="color: green; font-weight: bold;">مكتبة ينابيع</a>
+      <form class="d-flex">
+        <a class="around float-end " style="color: blue;"> اسم المستخدم  </a>
+        <img  src="assets/img/boy.png" alt="" style="width: 30px; height: 30px; border-radius: 50%;">
+        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button> -->
+      </form>
+
+    </div>
+  </nav>
+
+  <!-- Book's Data -->
+    <!-- <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Link with href
+    </a>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
+      Button with data-bs-target
+    </button>
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    </div>
+  </div> -->
+
+  <div class="list-group">
+    <a class="btn btn-primary dropdown" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        حفظ الكتاب
+      </a>
+</div>
+    <div class="collapse show" id="collapseExample">
+
+        <div class="container mt-1">
+            <form style="direction: rtl;" class="mb-3" ngForm="form" (submit)= "submit()">
+              <div class="form-group">
+                <label for="bookName">اسم الكتاب</label>
+                <input type="text" name="title" [(ngModel)]= "service.book!.title" class="form-control" id="bookName" placeholder="أدخل اسم الكتاب">
+              </div>
+              <div class="form-group">
+                <label for="authorName">اسم المؤلف</label>
+                <input type="text" [(ngModel)]= "service.book!.author" class="form-control" id="authorName" name="author" placeholder="أدخل اسم المؤلف">
+              </div>
+              <div class="form-group">
+                <label for="publishDate">تاريخ النشر</label>
+                <input type="text" [(ngModel)]= "service.book!.publishedAt" class="form-control" id="publishDate" name="publishedAt">
+              </div>
+              <div class="form-group">
+                <label for="pageCount">عدد الصفحات</label>
+                <input type="number" [(ngModel)]= "service.book!.numberOfPages" class="form-control" id="pageCount" name="numberOfPages" placeholder="أدخل عدد الصفحات">
+              </div>
+              <div class="form-group">
+                <label for="bookImage">صورة الكتاب</label>
+                <!-- [(ngModel)]= "service.book!.image" -->
+                <input type="file" name="image" class="form-control-file" id="bookImage" (change)="uploadImage($event)" [(ngModel)]= "service.book!.image" accept="image/*">
+              </div>
+              <div class="form-group">
+                <label for="bookPdf">الكتاب PDF</label>
+                <input type="file" class="form-control-file"  name="filePdf" id="bookPdf" accept="application/pdf"> 
+                <!-- [(ngModel)]= "service.book!.filePdf" -->
+              </div>
+              <div class="form-group">
+                <label for="bookDescription">وصف الكتاب</label>
+                <textarea class="form-control" name="discription" [(ngModel)]= "service.book!.discription" id="bookDescription" rows="3" placeholder="أدخل وصف الكتاب"></textarea>
+              </div>
+              <button type="submit" class="btn btn-success">حفظ الكتاب</button>
+            </form>
+          </div>
+
+    </div>
+
+    <div class="list-group mt-2">
+        <a class="btn btn-primary dropdown" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+             قائمة الكتب
+          </a>
+    </div>
+    <div class="collapse show" id="collapseExample1">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>اسم الكتاب</th>
+                    <th>المؤلف</th>
+                    <th>عدد الصفحات</th>
+                    <th>تاريخ النشر</th>
+                    <th>تعديل</th>
+                    <th>حذف</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor = "let item of service.books">
+                    <td>{{item.title}}</td>
+                    <td>{{item.author}}</td>
+                    <td>{{item.numberOfPages}}</td>
+                    <td>{{item.publishedAt}}</td>
+                    <td (click)= "fillData(item)"><button class="btn btn-warning">تعديل</button></td>
+                    <td (click)= "delete(item.id)"><button class="btn btn-danger">حذف</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+

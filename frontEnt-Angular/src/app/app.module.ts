@@ -13,6 +13,8 @@ import { NgToastModule } from 'ng-angular-popup';
 // import { ToastrModule } from 'ngx-toastr';
 import { AuthGuard } from './guards/auth.guard';
 import { CommonModule } from '@angular/common';
+import { HomeComponent } from './home/home.component';
+import { Home2Component } from './home2/home2.component';
 //import { ToastrModule } from 'ngx-toastr';
 //import { BooksPageComponent } from './books-page/books-page.component';
 
@@ -27,6 +29,8 @@ import { CommonModule } from '@angular/common';
     BookItemComponent,
     LoginComponent,
     SignupComponent,
+    HomeComponent,
+    Home2Component,
     
    // BooksPageComponent
     

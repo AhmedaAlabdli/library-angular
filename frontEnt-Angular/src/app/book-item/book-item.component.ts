@@ -10,6 +10,10 @@ import { NgForm } from '@angular/forms';
 export class BookItemComponent implements OnInit{
 
   constructor(public service:BookService){}
+  uploadImage(event: any)
+    {
+      debugger;
+    }
 ngOnInit() {
   this.service.getAllBooks();
   
@@ -19,6 +23,10 @@ ngOnInit() {
     author:"",
     numberOfPages:0,
     publishedAt:"",
+    image:"",
+    filePdf:"",
+    discription:"",
+    categoryId:1,
 
     
  };
@@ -69,4 +77,5 @@ submit(){
   
     }
     }
+    
 
