@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class AuthService {
 
-  private baseUrl:string="https://localhost:7104/api/Users/"
+  private baseUrl:string="http://alabdlilibrary.runasp.net/api/users/"
 
   constructor( private http:HttpClient) { }
 

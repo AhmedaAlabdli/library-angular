@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class BookService {
 
-  url:string="https://localhost:7104/api/Books"
+  url:string="http://alabdlilibrary.runasp.net/api/Books"
   books:Book[] | undefined;
   book!:Book ;
 

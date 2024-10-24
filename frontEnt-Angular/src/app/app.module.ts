@@ -9,7 +9,7 @@ import { BooksListComponent } from './books-list/books-list.component';
 import { BookItemComponent } from './book-item/book-item.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
-import { NgToastModule } from 'ng-angular-popup';
+//import { NgToastModule } from 'ng-angular-popup';
 // import { ToastrModule } from 'ngx-toastr';
 import { AuthGuard } from './guards/auth.guard';
 import { CommonModule } from '@angular/common';
@@ -31,10 +31,10 @@ import { Home2Component } from './home2/home2.component';
     SignupComponent,
     HomeComponent,
     Home2Component,
-    
+
    // BooksPageComponent
-    
-    
+
+
   ],
   imports: [
     BrowserModule,
@@ -42,15 +42,15 @@ import { Home2Component } from './home2/home2.component';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    NgToastModule,
+    //NgToastModule,
     BrowserAnimationsModule,
     //ToastrModule.forRoot(),
     CommonModule,
   ],
   providers: [AuthGuard],
   bootstrap: [AppComponent],
-  
-  
+
+
   schemas:[NO_ERRORS_SCHEMA]
 })
 export class AppModule { }

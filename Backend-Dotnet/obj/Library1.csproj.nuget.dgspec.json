@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Library1.csproj": {}
+    "E:\\library-angular\\Backend-Dotnet\\Library1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Library1.csproj": {
+    "E:\\library-angular\\Backend-Dotnet\\Library1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Library1.csproj",
+        "projectUniqueName": "E:\\library-angular\\Backend-Dotnet\\Library1.csproj",
         "projectName": "Library1",
-        "projectPath": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\Library1.csproj",
+        "projectPath": "E:\\library-angular\\Backend-Dotnet\\Library1.csproj",
         "packagesPath": "C:\\Users\\Ahmed A. Alabdli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ahmed A. Alabdli\\source\\repos\\Library1\\Library1\\obj\\",
+        "outputPath": "E:\\library-angular\\Backend-Dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,37 +52,37 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.29, )"
+              "version": "[6.0.33, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.29, )"
+              "version": "[6.0.33, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[6.0.29, )"
+              "version": "[6.0.33, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.29, )"
+              "version": "[6.0.33, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[6.0.29, )"
+              "version": "[6.0.33, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.29, )"
+              "version": "[6.0.33, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.16, )"
+              "version": "[6.0.17, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.8.1, )"
             }
           },
           "imports": [
