@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\library-angular\\Backend-Dotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|d:\\library-angular\\backend-dotnet\\migrations\\20241008082414_books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|solutionrelative:migrations\\20241008082414_books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|d:\\library-angular\\backend-dotnet\\helpers\\invoicereadingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|solutionrelative:helpers\\invoicereadingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|d:\\library-angular\\backend-dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|d:\\library-angular\\backend-dotnet\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|d:\\library-angular\\backend-dotnet\\models\\clinet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|solutionrelative:models\\clinet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|d:\\library-angular\\backend-dotnet\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|d:\\library-angular\\backend-dotnet\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|solutionrelative:models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|d:\\library-angular\\backend-dotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|d:\\library-angular\\backend-dotnet\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|d:\\library-angular\\backend-dotnet\\migrations\\20250114154613_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD119F4E-082F-4FE4-AC97-AC73C5BE1188}|Library1.csproj|solutionrelative:migrations\\20250114154613_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InvoiceItem.cs",
+              "DocumentMoniker": "D:\\library-angular\\Backend-Dotnet\\Models\\InvoiceItem.cs",
+              "RelativeDocumentMoniker": "Models\\InvoiceItem.cs",
+              "ToolTip": "D:\\library-angular\\Backend-Dotnet\\Models\\InvoiceItem.cs",
+              "RelativeToolTip": "Models\\InvoiceItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T23:55:49.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Clinet.cs",
+              "DocumentMoniker": "D:\\library-angular\\Backend-Dotnet\\Models\\Clinet.cs",
+              "RelativeDocumentMoniker": "Models\\Clinet.cs",
+              "ToolTip": "D:\\library-angular\\Backend-Dotnet\\Models\\Clinet.cs",
+              "RelativeToolTip": "Models\\Clinet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T23:54:16.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\library-angular\\Backend-Dotnet\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "D:\\library-angular\\Backend-Dotnet\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T19:13:48.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241008082414_books.cs",
+              "DocumentMoniker": "D:\\library-angular\\Backend-Dotnet\\Migrations\\20241008082414_books.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241008082414_books.cs",
+              "ToolTip": "D:\\library-angular\\Backend-Dotnet\\Migrations\\20241008082414_books.cs",
+              "RelativeToolTip": "Migrations\\20241008082414_books.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T08:24:14.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\library-angular\\Backend-Dotnet\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\library-angular\\Backend-Dotnet\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T21:58:06.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvoiceReadingService.cs",
+              "DocumentMoniker": "D:\\library-angular\\Backend-Dotnet\\Helpers\\InvoiceReadingService.cs",
+              "RelativeDocumentMoniker": "Helpers\\InvoiceReadingService.cs",
+              "ToolTip": "D:\\library-angular\\Backend-Dotnet\\Helpers\\InvoiceReadingService.cs",
+              "RelativeToolTip": "Helpers\\InvoiceReadingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T22:10:45.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\library-angular\\Backend-Dotnet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\library-angular\\Backend-Dotnet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T06:35:31.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250114154613_Init.cs",
+              "DocumentMoniker": "D:\\library-angular\\Backend-Dotnet\\Migrations\\20250114154613_Init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250114154613_Init.cs",
+              "ToolTip": "D:\\library-angular\\Backend-Dotnet\\Migrations\\20250114154613_Init.cs",
+              "RelativeToolTip": "Migrations\\20250114154613_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T15:46:14.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\library-angular\\Backend-Dotnet\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\library-angular\\Backend-Dotnet\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-08T06:14:55.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "D:\\library-angular\\Backend-Dotnet\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Models\\Invoice.cs",
+              "ToolTip": "D:\\library-angular\\Backend-Dotnet\\Models\\Invoice.cs",
+              "RelativeToolTip": "Models\\Invoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T22:18:05.282Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

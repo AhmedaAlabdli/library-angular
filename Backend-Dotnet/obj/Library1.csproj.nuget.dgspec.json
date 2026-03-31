@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\library-angular\\Backend-Dotnet\\Library1.csproj": {}
+    "D:\\library-angular\\Backend-Dotnet\\Library1.csproj": {}
   },
   "projects": {
-    "E:\\library-angular\\Backend-Dotnet\\Library1.csproj": {
+    "D:\\library-angular\\Backend-Dotnet\\Library1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\library-angular\\Backend-Dotnet\\Library1.csproj",
+        "projectUniqueName": "D:\\library-angular\\Backend-Dotnet\\Library1.csproj",
         "projectName": "Library1",
-        "projectPath": "E:\\library-angular\\Backend-Dotnet\\Library1.csproj",
-        "packagesPath": "C:\\Users\\Ahmed A. Alabdli\\.nuget\\packages\\",
-        "outputPath": "E:\\library-angular\\Backend-Dotnet\\obj\\",
+        "projectPath": "D:\\library-angular\\Backend-Dotnet\\Library1.csproj",
+        "packagesPath": "C:\\Users\\MSi\\.nuget\\packages\\",
+        "outputPath": "D:\\library-angular\\Backend-Dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ahmed A. Alabdli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MSi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,12 +44,17 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[35.6.2, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.33, )"
@@ -80,9 +85,17 @@
               "target": "Package",
               "version": "[6.0.17, )"
             },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2025.1.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.8.1, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.10, )"
             }
           },
           "imports": [
@@ -104,7 +117,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
