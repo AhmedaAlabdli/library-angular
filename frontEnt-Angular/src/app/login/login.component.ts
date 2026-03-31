@@ -3,6 +3,8 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 import { AuthService } from '../auth.service';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
+// import { HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-login',
@@ -12,10 +14,12 @@ import { ToastrService } from 'ngx-toastr';
 export class LoginComponent implements OnInit{
 
   loginForm!:FormGroup;
+  // http: any;
   constructor( 
     private fb:FormBuilder,
     private auth:AuthService,
     private router:Router,
+    private http: HttpClient,
     // private toast:NgToastService,
     //private toastr:ToastrService,
   ){}
@@ -65,5 +69,30 @@ export class LoginComponent implements OnInit{
       }
     })
   }
+
+  downloadReport(model:number , projectId:number) {
+    this.http.get('http://localhost:5275/api/v1/adminreport/projectproposalreport?modelId=1&ProposalId=53&version=1', { responseType: 'blob' })
+        .subscribe({
+            next: (blob: Blob) => {
+                if (blob.size === 0) {
+                    console.error("الملف فارغ، ربما هناك خطأ في السيرفر.");
+                    return;
+                }
+
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'Report.pdf';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url); // إلغاء الرابط لتحرير الموارد
+            },
+            error: (error) => {
+                console.error("حدث خطأ أثناء تحميل التقرير:", error);
+            }
+        });
+}
+
 
 }

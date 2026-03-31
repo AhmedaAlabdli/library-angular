@@ -1,4 +1,5 @@
 using System.Text;
+using Library1.Helpers;
 using Library1.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Cors;
@@ -16,7 +17,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<BooksDBContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BooksDB")));
  
 builder.Services.AddCors(options => options.AddPolicy("CrosPolicy", builder =>
 {
@@ -39,6 +40,8 @@ builder.Services.AddAuthentication(x =>
         ValidateIssuer = false,
     };
 });
+
+builder.Services.AddSingleton<InvoiceReadingService>();
 
 var app = builder.Build();
 
